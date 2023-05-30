@@ -34,7 +34,7 @@
 
 
 <header class="off on">
-  <nav class="navbar navbar-expand-md justify-content-center mx-auto"> <span class="navbar-brand d-flex  m-0"> <img src="./Homequote - Save Big On a New Roof_files/logo.png" onerror="this.src=&#39;https://quotewallet.com/img/logo.png&#39;" width="180" alt="QuoteWallet" class="img-fluid" draggable="false"> </span>
+  <nav class="navbar navbar-expand-md justify-content-center mx-auto"> <span class="navbar-brand d-flex  m-0"> <img src="./Homequote - Save Big On a New Roof_files/logo.png" onerror="this.src=&#39;./Homequote - Save Big On a New Roof_files/logo.png;" width="180" alt="QuoteWallet" class="img-fluid" draggable="false"> </span>
     <div class="navbar-collapse collapse  w-100" id="navigation">
       <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
         <li class="nav-item"> <a class="nav-link btn btn-grad text-uppercase" href="https://go.homequote.bio/click" target="_blank">See If You Qualify <i></i> <span class="btn-bg grad"></span></a> </li>
@@ -1725,21 +1725,7 @@
 <!--[if lte IE 8]>
   <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 <![endif]--> 
-<script>		
-$.ajax({
-  url: "https://geolocation-db.com/jsonp",
-  jsonpCallback: "callback",
-  dataType: "jsonp",
-  success: function(location) {
-    $('#country').html(location.country_name);
-    $('#state').html(location.state);
-    $('#city').html(location.city);
-    $('#latitude').html(location.latitude);
-    $('#longitude').html(location.longitude);
-    $('#ip').html(location.IPv4);
-  }
-});
-	</script> 
+
 <script>
 (function(){ 
 	function isStrictMode(){
